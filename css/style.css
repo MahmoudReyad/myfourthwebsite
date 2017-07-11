@@ -1,0 +1,305 @@
+/* Start Rulez */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  perspective: 600px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.clearfix {
+  clear: both;
+}
+/* End Rulez */
+/* Start Header */
+.mainheader {
+  background-image: url('../images/stars.jpg');
+  background-size: cover;
+  background-clip: border-box;
+  color: #fff;3
+  overflow: hidden;
+  border-top: 4px solid #ffd800;
+  text-align: center;
+  height: 550px;
+}
+.mainheader .container .header_head {
+  overflow: hidden;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+.mainheader .container .header_head h3{
+  float: left;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.mainheader .container .header_head h3 span {
+  padding: 3px;
+  background-color: #ffd800;
+  font-size: 10px;
+  color: #000;
+  border-radius: 2px;
+  margin-bottom: 1px;
+}
+.mainheader .container .header_head ul {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+}
+.mainheader .container .header_head ul li{
+  float: left;
+  margin-right: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
+.mainheader .container .header_head ul li:hover{
+  background-color: #ffd800;
+  border-radius: 10px;
+}
+.mainheader .container .header_content{
+  margin-bottom: 100px;
+}
+.mainheader .container .header_content h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+input[name="email"], input[name="password"]{
+  background: none;
+  padding:10px 15px;
+  color: #fff;
+  margin-right: 8px;
+}
+::-webkit-input-placeholder {
+    color:#fff;
+    opacity: .8;
+}
+input[type="submit"]{
+  padding: 11px 16px;
+  background-color: #ffd800;
+  color: #000;
+  border: none;
+}
+/* End Header   */
+/* Start Service */
+.service {
+  background-color: #191b29;
+  padding-top: 70px;
+  height: 430px;
+  position: relative;
+}
+.service .container section{
+  width: 33.333%;
+  float: left;
+
+}
+.service .container  section:last-of-type{
+  float: right;
+}
+.service .container .service_content h4{
+  color: #fff;
+  font-family: Arial;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.service .container .service_content h4 i {
+  color: #ffd800;
+  margin-right: 10px;
+
+}
+.service .container .service_content p {
+  color: #8486a2;
+  margin-bottom: 25px;
+  width: 290px;
+}
+.service .container .iphone img {
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  bottom: 21px;
+}
+/* End Service  */
+/* Start Team  */
+.team{
+  text-align: center;
+  background-color: #ffd800;
+  height: 450px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.team .container h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+.team .container h4{
+  font-size: 23px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.team .container .profile {
+  width: 25%;
+  float: left;
+}
+.team .container .profile img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.team .container .profile img:hover{
+animation: up-down 1s ease-in-out 1 forwards ;
+}
+@keyframes  up-down {
+  0%{
+    transform: translateY(25px);
+  }
+  25%{
+    transform: translateY(10px);
+  }
+  50%{
+    transform: translateY(25px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+.team .container .profile h3{
+  margin-bottom: 10px;
+}
+.team .container .profile p {
+  color: #998319;
+  width: 250px;
+  display: inline-block;
+  line-height: 1.3;
+}
+/* End Team */
+/* Start This App */
+.this_app {
+  background-color: #ffe347;
+  text-align: left;
+  padding: 65px 0 70px;
+}
+.this_app .container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.this_app .container p {
+  line-height: 1.5;
+  width: 500px;
+  color: #6e6331;
+}
+/* End This App */
+/* Start download App */
+.download_app {
+  text-align: left;
+  padding: 65px 0 85px;
+  position: relative;
+
+}
+.download_app .container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.download_app .container p {
+  line-height: 1.5;
+  width: 400px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.download_app .container button{
+  background-color: #191b29;
+  padding: 15px 25px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.download_app .container img {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 900px;
+}
+/* End Down Load App  */
+/* Start Our App */
+.our_app{
+  background-image: url(../images/stars.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0;
+  height:580px;
+  text-align: center;
+  overflow: hidden;
+}
+.our_app .container h2{
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.our_app .container h4{
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.our_app .container .our-app_projects{
+  width: 25%;
+  float: left;
+  margin-bottom: 30px;
+}
+.our_app .container .our-app_projects i {
+  font-size: 100px;
+  color: #ffd800;
+}
+.our_app .container .our-app_projects h3{
+  font-size: 25px;
+}
+.our_app .container .our-app_projects p{
+  line-height: 1.5;
+  width: 260px;
+}
+.our_app .container button {
+  background-color: #ffd800;
+  padding: 15px 25px;
+  color: #000;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 10px;
+}
+/* End Our App   */
+/* Start Footer */
+footer{
+  background-color: #191b29;
+  height: 550px;
+  color: #fff;
+  padding: 80px 0 70px 0;
+  overflow: hidden;
+  text-align: center;
+}
+footer section {
+  width: 25%;
+  float: left;
+  margin-bottom: 80px;
+}
+footer section p {
+  width: 100px;
+  line-height: 1.8;
+  font-weight: lighter;
+}
+footer p {
+  width: 562px;
+  line-height: 1.3;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+footer p span {
+  font-weight: bolder;
+  color: #ffd800;
+}
+/* End Footer   */
